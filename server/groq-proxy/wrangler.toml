@@ -1,0 +1,6 @@
+name = "gwiezdnyprzewodnik-groq-proxy"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Prawdziwy klucz Groq NIE idzie tutaj — ustaw go sekretem:
+#   wrangler secret put GROQ_API_KEY

@@ -1,0 +1,85 @@
+{
+  "expo": {
+    "name": "Gwiezdny Przewodnik",
+    "slug": "gwiezdny-przewodnik",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0015"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0015",
+        "monochromeImage": "./assets/adaptive-icon.png"
+      },
+      "package": "com.Pokekage.gwiezdnyprzewodnik",
+      "versionCode": 21,
+      "resizeableActivity": true,
+      "statusBar": {
+        "barStyle": "light-content",
+        "translucent": true,
+        "backgroundColor": "transparent"
+      },
+      "navigationBar": {
+        "barStyle": "light-content",
+        "backgroundColor": "#0a0015",
+        "visible": "sticky-immersive"
+      },
+      "allowBackup": false,
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "SCHEDULE_EXACT_ALARM",
+        "VIBRATE",
+        "PICTURE_IN_PICTURE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#d4af37",
+          "defaultChannel": "horoscope"
+        }
+      ],
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-6047762879323596~8893892086"
+        }
+      ],
+      "expo-iap",
+      [
+        "react-native-android-widget",
+        {
+          "widgets": [
+            {
+              "name": "HoroscopeWidget",
+              "label": "Horoskop dnia",
+              "minWidth": "220dp",
+              "minHeight": "110dp",
+              "targetCellWidth": 4,
+              "targetCellHeight": 2,
+              "description": "Codzienny horoskop na ekranie głównym",
+              "updatePeriodMillis": 10800000,
+              "resizeMode": "horizontal|vertical"
+            }
+          ]
+        }
+      ],
+      "expo-font",
+      "expo-localization"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7a0b4562-b2a6-4d4c-89d6-ef5caccb281f"
+      }
+    },
+    "owner": "pokekage"
+  }
+}
