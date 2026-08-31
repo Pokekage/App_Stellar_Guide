@@ -6,6 +6,12 @@ An astrology app for Android (React Native / Expo) — daily horoscopes, tarot r
 
 📲 **[Pobierz z Google Play](https://play.google.com/store/apps/details?id=com.Pokekage.gwiezdnyprzewodnik)**
 
+<p align="center">
+  <img src="docs/screenshots/onboarding.png" width="200" alt="Wybór znaku zodiaku / Onboarding" />
+  <img src="docs/screenshots/horoscope.png" width="200" alt="Horoskop dnia / Daily horoscope" />
+  <img src="docs/screenshots/tarot.png" width="200" alt="Karta dnia / Tarot" />
+</p>
+
 ---
 
 ## 🇵🇱 Polski
